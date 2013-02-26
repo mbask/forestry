@@ -14,7 +14,7 @@
 #' @return a single numeric value (estimate of count of trees per hectare), not rounded
 #' @export
 #' @examples
-#' # dbh from an ideal even-aged forest
+#' # dbh from an ideal even-aged plot
 #' dbhList <- runif(10, min = 30, max = 40)
 #' rfTreeDensity(dbhList)
 #' rfTreeDensity(dbhList/100)

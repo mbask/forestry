@@ -45,7 +45,7 @@ Therefore, should trees larger than 2.4 m be measured the \code{unit} parameter 
   explicitly set to either \code{cm} or \code{m}. }
 }
 \examples{
-# dbh from an ideal even-aged forest
+# dbh from an ideal even-aged plot
 dbhList <- runif(10, min = 30, max = 40)
 rfTreeDensity(dbhList)
 rfTreeDensity(dbhList/100)
