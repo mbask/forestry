@@ -1,14 +1,14 @@
 \name{rfBasalArea}
 \alias{rfBasalArea}
-\title{Estimate the population basal area (\eqn{m^2/ha}) from a relascope plot}
+\title{Estimate the population basal area (\eqn{m^2/ha}) from a relascopic plot}
 \usage{
-  rfBasalArea(relascopeBand = 2, treesCount)
+  rfBasalArea(relascopeBand = 2, treeCount)
 }
 \arguments{
   \item{relascopeBand}{the relascopic band used in the
   relascopic plot (1, 2, 4), default: 2}
 
-  \item{treesCount}{the number of trees counted in the
+  \item{treeCount}{the number of trees counted in the
   relascopic plot}
 }
 \value{
@@ -16,7 +16,7 @@
 }
 \description{
   Estimate the population basal area (\eqn{m^2/ha}) from a
-  relascope plot
+  relascopic plot
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}

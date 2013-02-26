@@ -2,7 +2,8 @@
 \alias{ttBasalArea}
 \title{Basal area of a tree given its diameter
 
-The function is vectorized, accepts a single value or a vector of values}
+The function is vectorized, accepts a single value or a vector of values.
+No conversion between measuring units is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out)}
 \usage{
   ttBasalArea(treeDbh)
 }
@@ -17,12 +18,13 @@ The function is vectorized, accepts a single value or a vector of values}
   Basal area of a tree given its diameter
 
   The function is vectorized, accepts a single value or a
-  vector of values
+  vector of values. No conversion between measuring units
+  is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out)
 }
 \examples{
 # dbh from an ideal even-aged forest
 dbhList <- runif(10, min = 30, max = 40)
-ttBasalArea(dbhList)
+data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}

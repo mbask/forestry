@@ -1,12 +1,12 @@
-#' @title Estimate the population basal area (\eqn{m^2/ha}) from a relascope plot
+#' @title Estimate the population basal area (\eqn{m^2/ha}) from a relascopic plot
 #'
 #' 
 #'
 #' @param relascopeBand the relascopic band used in the relascopic plot (1, 2, 4), default: 2
-#' @param treesCount the number of trees counted in the relascopic plot
+#' @param treeCount the number of trees counted in the relascopic plot
 #' @export
 #' @return a numeric estimate for G in (\eqn{m^2/ha})
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
-rfBasalArea <- function(relascopeBand = 2, treesCount) {
-  relascopeBand * treesCount
+rfBasalArea <- function(relascopeBand = 2, treeCount) {
+  relascopeBand * treeCount
 }
