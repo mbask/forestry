@@ -1,4 +1,4 @@
-#' @title Estimate the population basal area (\eqn{m^2/ha}) from a relascopic plot
+#' Estimate the population basal area (\eqn{m^2/ha}) from a relascopic plot
 #'
 #' 
 #'

@@ -1,4 +1,4 @@
-#' @title Tree density at forest level, based on a relascopic plot
+#' Tree density at forest level, based on a relascopic plot
 #'
 #' Tree density is estimated as \eqn{N=\phi \cdot \sum_{i=1}^{n_\phi}{\frac{1}{g_i}}} where \eqn{\phi} is the relascopic band used during sampling, \eqn{n_\phi} is the total count of trees found to be inside of the plot measured with the \eqn{\phi} band.
 #' 
