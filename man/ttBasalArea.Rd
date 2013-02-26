@@ -12,6 +12,9 @@
   a single value of a vector of values
 }
 \description{
+  Basal area is computed as \eqn{g = \pi * \frac{d^2}{4}}
+}
+\details{
   The function is vectorized, accepts a single value or a
   vector of values. No conversion between measuring units
   is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out, or
