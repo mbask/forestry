@@ -1,8 +1,8 @@
-\name{relascopePlotG}
-\alias{relascopePlotG}
-\title{Estimate the basal area (\eqn{m^2/ha}) from a relascope plot}
+\name{rfBasalArea}
+\alias{rfBasalArea}
+\title{Estimate the population basal area (\eqn{m^2/ha}) from a relascope plot}
 \usage{
-  relascopePlotG(relascopeBand = 2, treesCount)
+  rfBasalArea(relascopeBand = 2, treesCount)
 }
 \arguments{
   \item{relascopeBand}{the relascopic band used in the
@@ -15,8 +15,8 @@
   a numeric estimate for G in (\eqn{m^2/ha})
 }
 \description{
-  Estimate the basal area (\eqn{m^2/ha}) from a relascope
-  plot
+  Estimate the population basal area (\eqn{m^2/ha}) from a
+  relascope plot
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}

@@ -14,5 +14,5 @@ Imports:
 Suggests:
     ggplot2
 Collate:
-    'relascopePlotG.R'
-    'treeBasalArea.R'
+    'rfBasalArea.R'
+    'ttBasalArea.R'

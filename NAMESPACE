@@ -1,2 +1,2 @@
-export(relascopePlotG)
-export(treeBasalArea)
+export(rfBasalArea)
+export(ttBasalArea)

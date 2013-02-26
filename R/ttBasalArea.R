@@ -8,7 +8,7 @@
 #' @examples
 #' # dbh from an ideal even-aged forest
 #' dbhList <- runif(10, min = 30, max = 40)
-#' treeBasalArea(dbhList)
+#' ttBasalArea(dbhList)
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
 ttBasalArea <- function(treeDbh) {
   pi * (treeDbh^2)
