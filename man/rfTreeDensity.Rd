@@ -2,7 +2,7 @@
 \alias{rfTreeDensity}
 \title{Tree density at forest level, based on a relascopic plot
 
-Tree density is estimated as \eqn{N=\phi \cdot \sum_{i=1}^n{\frac{1}{g_i}}} where \eqn{\phi} is the relascopic band used during sampling, \eqn{n} is the total count of trees found to be inside of the plot.
+Tree density is estimated as \eqn{N=\phi \cdot \sum_{i=1}^{n_\phi}{\frac{1}{g_i}}} where \eqn{\phi} is the relascopic band used during sampling, \eqn{n_\phi} is the total count of trees found to be inside of the plot measured with the \eqn{\phi} band.
 
 The function guesses the unit of measure of tree dbhs (\emph{cm} or \emph{m}) if parameter \code{unit} is set to "\code{auto}":
 \itemize{
@@ -32,9 +32,10 @@ Therefore, should trees larger than 2.4 m be measured the \code{unit} parameter 
   Tree density at forest level, based on a relascopic plot
 
   Tree density is estimated as \eqn{N=\phi \cdot
-  \sum_{i=1}^n{\frac{1}{g_i}}} where \eqn{\phi} is the
-  relascopic band used during sampling, \eqn{n} is the
-  total count of trees found to be inside of the plot.
+  \sum_{i=1}^{n_\phi}{\frac{1}{g_i}}} where \eqn{\phi} is
+  the relascopic band used during sampling, \eqn{n_\phi} is
+  the total count of trees found to be inside of the plot
+  measured with the \eqn{\phi} band.
 
   The function guesses the unit of measure of tree dbhs
   (\emph{cm} or \emph{m}) if parameter \code{unit} is set
@@ -52,5 +53,8 @@ rfTreeDensity(dbhList/100)
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
+}
+\seealso{
+  \code{\link{ttBasalArea}}
 }
 
