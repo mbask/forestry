@@ -1,4 +1,4 @@
 forestry
 ========
 
-A R package for common analyses in forestry science
+Tools for common forestry related analyses

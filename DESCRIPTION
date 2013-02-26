@@ -1,0 +1,17 @@
+Type: Package
+Package: forestry
+LazyLoad: yes
+License: GPL-2
+Title: Tools for common forestry related analyses
+Author: Marco Bascietto <marco.bascietto@ibaf.cnr.it>
+Maintainer: Marco Bascietto <marco.bascietto@ibaf.cnr.it>
+Description: Tools for common forestry related analyses
+Version: 0.1
+URL: https://github.com/mbask/forestry
+Date: 2013-02-25
+Imports:
+    plyr
+Suggests:
+    ggplot2
+Collate:
+    'relascopePlotG.R'
