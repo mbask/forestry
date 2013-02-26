@@ -7,6 +7,6 @@
 #' @export
 #' @return a numeric estimate for G in (\eqn{m^2/ha})
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
-rfBasalArea <- function(relascopeBand = 2, treeCount) {
+rfBasalArea <- function(treeCount, relascopeBand = 2) {
   relascopeBand * treeCount
 }

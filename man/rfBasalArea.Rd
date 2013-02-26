@@ -2,7 +2,7 @@
 \alias{rfBasalArea}
 \title{Estimate the population basal area (\eqn{m^2/ha}) from a relascopic plot}
 \usage{
-  rfBasalArea(relascopeBand = 2, treeCount)
+  rfBasalArea(treeCount, relascopeBand = 2)
 }
 \arguments{
   \item{relascopeBand}{the relascopic band used in the
