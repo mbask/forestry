@@ -12,5 +12,5 @@
 #' data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
 ttBasalArea <- function(treeDbh) {
-  pi * treeDbh^2
+  pi * treeDbh^2 / 4
 }
