@@ -1,3 +1,4 @@
 export(rfBasalArea)
+export(rfTreeDensity)
 export(ttBasalArea)
 import(plyr)
