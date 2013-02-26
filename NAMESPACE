@@ -1,3 +1,4 @@
+export(meanTreeDbh)
 export(rfBasalArea)
 export(rfTreeDensity)
 export(ttBasalArea)

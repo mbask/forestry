@@ -18,3 +18,4 @@ Collate:
     'ttBasalArea.R'
     'forestry.R'
     'rfTreeDensity.R'
+    'meanTreeDbh.R'
