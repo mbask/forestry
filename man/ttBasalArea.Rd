@@ -3,7 +3,7 @@
 \title{Basal area of a tree given its diameter
 
 The function is vectorized, accepts a single value or a vector of values.
-No conversion between measuring units is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out, or  \eqn{m} in, \eqn{m^2} out)}
+No conversion between measuring units is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out, or\eqn{m} in, \eqn{m^2} out)}
 \usage{
   ttBasalArea(treeDbh)
 }
@@ -19,8 +19,8 @@ No conversion between measuring units is carried out (\emph{ie} \eqn{cm} in, \eq
 
   The function is vectorized, accepts a single value or a
   vector of values. No conversion between measuring units
-  is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out, or
-  \eqn{m} in, \eqn{m^2} out)
+  is carried out (\emph{ie} \eqn{cm} in, \eqn{cm^2} out,
+  or\eqn{m} in, \eqn{m^2} out)
 }
 \examples{
 # dbh from an ideal even-aged forest
