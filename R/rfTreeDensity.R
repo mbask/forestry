@@ -9,7 +9,7 @@
 #' Therefore, should trees larger than 2.4 m be measured the \code{unit} parameter should be explicitly set to either \code{cm2} or \code{m2}.
 #' }
 #' 
-#' @note The 2.4 cm dbh threshold has been chosen as it is the most used lower limit for dbh in tree measurements.
+#' @note The 2.4 dbh threshold has been chosen as it is the most used lower limit for dbh, in cm, in tree measurements. Therefore if a tree dbh is \eqn{\leq 2.4} than its unit of measurement is \eqn{m}, otherwise it may be either \eqn{cm} and \eqn{m}, the functions assumes it is \eqn{cm}.
 #' 
 #' @param treeG a single tree diameter or vector of tree diameters \emph{in cm}
 #' @param relascopeBand the relascopic band used in the relascopic plot (1, 2, 4), default: 2
