@@ -18,5 +18,5 @@ Collate:
     'ttBasalArea.R'
     'forestry.R'
     'rfTreeDensity.R'
-    'meanTreeDbh.R'
     'pfTreeDensity.R'
+    'ttMeanDbh.R'

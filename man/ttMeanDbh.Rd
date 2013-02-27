@@ -1,8 +1,8 @@
-\name{meanTreeDbh}
-\alias{meanTreeDbh}
+\name{ttMeanDbh}
+\alias{ttMeanDbh}
 \title{Estimate mean tree diameter}
 \usage{
-  meanTreeDbh(basalArea, treeDensity)
+  ttMeanDbh(basalArea, treeDensity)
 }
 \arguments{
   \item{basalArea}{basal area at plot level or forest
@@ -32,8 +32,8 @@ dbhList <- runif(10, min = 30, max = 40)
 G <- rfBasalArea(length(dbhList))
 # tree density in ha^-1
 N <- rfTreeDensity(dbhList)
-# mean tree dbh at forest level, based on a relascopic plot, in cm
-meanTreeDbh(G, N) * 100
+# mean tree dbh at forest level, in m
+ttMeanDbh(G, N)
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}

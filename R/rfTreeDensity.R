@@ -1,11 +1,11 @@
 #' Tree density at forest level, based on a relascopic plot
 #'
-#' Tree density is estimated as \eqn{N=\phi \cdot \sum_{i=1}^{n_\phi}{\frac{1}{g_i}}} where \eqn{\phi} is the relascopic band used during sampling, \eqn{n_\phi} is the total count of trees found to be inside of the plot measured with the \eqn{\phi} band.
+#' Tree density is estimated as \eqn{N=\phi \cdot \sum_{i=1}^{n_\phi}{\frac{1}{g_i}}} where \eqn{\phi} is the relascopic band used during sampling, \eqn{n_\phi} is the total count of trees found to be inside of a relascopic plot measured with the \eqn{\phi} band.
 #' 
 #' The function guesses the unit of measure of tree basal area (\eqn{cm^2} or \eqn{m^2}) if parameter \code{unit} is set to "\code{auto}":
 #' \itemize{
 #'  \item \eqn{cm^2} one or more trees have basal area higher than 18.09557 (\emph{i.e.} tree dbh \eqn{> 2.4})
-#'  \item \eqn{m^2} all trees have basal area lower or equal than 18.09557(\emph{i.e.} tree dbh \eqn{\leq 2.4})
+#'  \item \eqn{m^2} all trees have basal area lower or equal than 18.09557 (\emph{i.e.} tree dbh \eqn{\leq 2.4})
 #' Therefore, should trees larger than 2.4 m be measured the \code{unit} parameter should be explicitly set to either \code{cm2} or \code{m2}.
 #' }
 #' 

@@ -16,9 +16,9 @@
 #' G <- rfBasalArea(length(dbhList))
 #' # tree density in ha^-1
 #' N <- rfTreeDensity(dbhList)
-#' # mean tree dbh at forest level, based on a relascopic plot, in cm
-#' meanTreeDbh(G, N) * 100
+#' # mean tree dbh at forest level, in m
+#' ttMeanDbh(G, N)
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
-meanTreeDbh <- function(basalArea, treeDensity) {
+ttMeanDbh <- function(basalArea, treeDensity) {
   2 * sqrt(basalArea / treeDensity / pi)
 }

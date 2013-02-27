@@ -59,8 +59,8 @@ pfTreeDensity(treeCountList, c(0.05, 0.04))
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
 }
 \seealso{
-  Other structuralAnalysis: \code{\link{meanTreeDbh}},
-  \code{\link{rfBasalArea}}, \code{\link{rfTreeDensity}},
-  \code{\link{ttBasalArea}}
+  Other structuralAnalysis: \code{\link{rfBasalArea}},
+  \code{\link{rfTreeDensity}}, \code{\link{ttBasalArea}},
+  \code{\link{ttMeanDbh}}
 }
 

@@ -1,6 +1,6 @@
-export(meanTreeDbh)
 export(pfTreeDensity)
 export(rfBasalArea)
 export(rfTreeDensity)
 export(ttBasalArea)
+export(ttMeanDbh)
 import(plyr)
