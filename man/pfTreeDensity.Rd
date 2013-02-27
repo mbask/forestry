@@ -8,7 +8,7 @@
   \item{treeCount}{the number of trees counted in the
   traditional plot}
 
-  \item{plotSize}{the plot size in \eqn{m^2}}
+  \item{plotSize}{the plot size}
 
   \item{unit}{a character value to indicate the unit of
   measure of \code{plotSize}: \code{ha}, \code{m2},

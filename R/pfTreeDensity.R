@@ -11,7 +11,7 @@
 #' 
 #' @note The function is vectorized both for \code{treeCount} and for \code{plotSize}. Be careful of the recycling rule, see example section.
 #' @param treeCount the number of trees counted in the traditional plot
-#' @param plotSize the plot size in \eqn{m^2}
+#' @param plotSize the plot size
 #' @param unit a character value to indicate the unit of measure of \code{plotSize}: \code{ha}, \code{m2}, \code{auto} (default value)
 #' @return a single numeric value (estimate of count of trees per hectare), not rounded
 #' @export
