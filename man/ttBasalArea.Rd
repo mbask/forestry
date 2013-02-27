@@ -22,7 +22,7 @@
 }
 \examples{
 # dbh from an ideal even-aged forest
-dbhList <- runif(10, min = 30, max = 40)
+dbhList <- runif(10, min = 30, max = 40), in cm
 data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 }
 \author{

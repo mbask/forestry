@@ -26,7 +26,7 @@
   basal area
 }
 \examples{
-# dbh from an ideal even-aged plot
+# dbh from an ideal even-aged plot, in cm
 dbhList <- runif(10, min = 30, max = 40)
 # basal area at forest level, im m^2/ha
 G <- rfBasalArea(length(dbhList))

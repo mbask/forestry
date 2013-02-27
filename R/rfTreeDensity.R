@@ -15,7 +15,7 @@
 #' @seealso \code{\link{ttBasalArea}}
 #' @export
 #' @examples
-#' # dbh from an ideal even-aged plot
+#' # dbh from an ideal even-aged plot, in cm
 #' dbhList <- runif(10, min = 30, max = 40)
 #' rfTreeDensity(dbhList)
 #' rfTreeDensity(dbhList/100)

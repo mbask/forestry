@@ -36,7 +36,7 @@
   explicitly set to either \code{cm} or \code{m}. }
 }
 \examples{
-# dbh from an ideal even-aged plot
+# dbh from an ideal even-aged plot, in cm
 dbhList <- runif(10, min = 30, max = 40)
 rfTreeDensity(dbhList)
 rfTreeDensity(dbhList/100)
