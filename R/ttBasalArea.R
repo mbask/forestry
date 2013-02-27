@@ -9,8 +9,8 @@
 #' @return a single value of a vector of values
 #' @export
 #' @examples
-#' # dbh from an ideal even-aged forest
-#' dbhList <- runif(10, min = 30, max = 40), in cm
+#' # dbh from an ideal even-aged forest, in cm
+#' dbhList <- runif(10, min = 30, max = 40)
 #' data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
 ttBasalArea <- function(treeDbh) {
