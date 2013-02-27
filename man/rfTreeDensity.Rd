@@ -2,17 +2,17 @@
 \alias{rfTreeDensity}
 \title{Tree density at forest level, based on a relascopic plot}
 \usage{
-  rfTreeDensity(treeDbh, relascopeBand = 2, unit = "auto")
+  rfTreeDensity(treeG, relascopeBand = 2, unit = "auto")
 }
 \arguments{
-  \item{treeDbh}{a single tree diameter or vector of tree
+  \item{treeG}{a single tree diameter or vector of tree
   diameters \emph{in cm}}
 
   \item{relascopeBand}{the relascopic band used in the
   relascopic plot (1, 2, 4), default: 2}
 
   \item{unit}{a character value to indicate the unit of
-  measure of \code{treeDbh}: \code{cm}, \code{m},
+  measure of \code{treeDbh}: \code{cm2}, \code{m2},
   \code{auto} (default value)}
 }
 \value{
@@ -27,19 +27,28 @@
   measured with the \eqn{\phi} band.
 }
 \details{
-  The function guesses the unit of measure of tree dbhs
-  (\emph{cm} or \emph{m}) if parameter \code{unit} is set
-  to "\code{auto}": \itemize{ \item \emph{cm} 1 or more
-  tree dbh higher than 2.4 \item \emph{m} all tree dbhs are
-  lower or equal to 2.4 Therefore, should trees larger than
-  2.4 m be measured the \code{unit} parameter should be
-  explicitly set to either \code{cm} or \code{m}. }
+  The function guesses the unit of measure of tree basal
+  area (\eqn{cm^2} or \eqn{m^2}) if parameter \code{unit}
+  is set to "\code{auto}": \itemize{ \item \eqn{cm^2} one
+  or more trees have basal area higher than 18.09557
+  (\emph{i.e.} tree dbh \eqn{> 2.4}) \item \eqn{m^2} all
+  trees have basal area lower or equal than
+  18.09557(\emph{i.e.} tree dbh \eqn{\leq 2.4}) Therefore,
+  should trees larger than 2.4 m be measured the
+  \code{unit} parameter should be explicitly set to either
+  \code{cm2} or \code{m2}. }
+}
+\note{
+  The 2.4 cm dbh threshold has been chosen as it is the
+  most used lower limit for dbh in tree measurements.
 }
 \examples{
 # dbh from an ideal even-aged plot, in cm
 dbhList <- runif(10, min = 30, max = 40)
-rfTreeDensity(dbhList)
-rfTreeDensity(dbhList/100)
+# Basal area of trees
+g <- ttBasalArea(dbhList)
+rfTreeDensity(g)
+rfTreeDensity(g/1e4)
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
