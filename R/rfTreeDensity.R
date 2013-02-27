@@ -15,7 +15,6 @@
 #' @param relascopeBand the relascopic band used in the relascopic plot (1, 2, 4), default: 2
 #' @param unit a character value to indicate the unit of measure of \code{treeDbh}: \code{cm2}, \code{m2}, \code{auto} (default value)
 #' @return a single numeric value (estimate of count of trees per hectare), not rounded
-#' @seealso \code{\link{ttBasalArea}}
 #' @export
 #' @family structuralAnalysis
 #' @examples
