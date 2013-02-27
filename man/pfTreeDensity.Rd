@@ -50,10 +50,13 @@ treeCountList <- sample(30:60, size = 10, replace = TRUE)
 # Tree density, plot size is 0.05 ha
 pfTreeDensity(treeCountList, 0.05)
 # Tree density, first plot size is 0.05 ha, all other plots 0.04 ha
-pfTreeDensity(treeCountList, c(0.05, rep(0.04, 9)))
+pfTreeDensity(treeCountList, c(0.05, 0.04:9))
 # Tree density, first plot size is 0.05 ha, all other plots 0.04 ha,
 # wrong call, c(0.05, 0.04) is recycled 5 times
 pfTreeDensity(treeCountList, c(0.05, 0.04))
+# Tree density, first plot size is 500 m^2, all other plots 0.04 ha,
+# be aware that the unit of measure of all plots size is assumed to be m^2 because one plot size is given as m^2
+pfTreeDensity(treeCountList, c(500, 0.04:9))
 }
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
