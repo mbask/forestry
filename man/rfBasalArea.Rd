@@ -23,6 +23,7 @@
 }
 \seealso{
   Other structuralAnalysis: \code{\link{meanTreeDbh}},
-  \code{\link{rfTreeDensity}}, \code{\link{ttBasalArea}}
+  \code{\link{pfTreeDensity}}, \code{\link{rfTreeDensity}},
+  \code{\link{ttBasalArea}}
 }
 

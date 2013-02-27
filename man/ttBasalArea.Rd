@@ -30,6 +30,7 @@ data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 }
 \seealso{
   Other structuralAnalysis: \code{\link{meanTreeDbh}},
-  \code{\link{rfBasalArea}}, \code{\link{rfTreeDensity}}
+  \code{\link{pfTreeDensity}}, \code{\link{rfBasalArea}},
+  \code{\link{rfTreeDensity}}
 }
 
