@@ -19,3 +19,4 @@ Collate:
     'forestry.R'
     'rfTreeDensity.R'
     'meanTreeDbh.R'
+    'pfTreeDensity.R'
