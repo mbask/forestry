@@ -8,6 +8,7 @@
 #' @param treeDbh a single tree diameter or vector of tree diameters
 #' @return a single value of a vector of values
 #' @export
+#' @family structuralAnalysis
 #' @examples
 #' # dbh from an ideal even-aged forest, in cm
 #' dbhList <- runif(10, min = 30, max = 40)

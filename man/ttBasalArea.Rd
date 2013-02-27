@@ -28,4 +28,8 @@ data.frame(dbh = dbhList, g = ttBasalArea(dbhList))
 \author{
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
 }
+\seealso{
+  Other structuralAnalysis: \code{\link{meanTreeDbh}},
+  \code{\link{rfBasalArea}}, \code{\link{rfTreeDensity}}
+}
 

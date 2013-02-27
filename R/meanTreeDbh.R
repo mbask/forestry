@@ -8,6 +8,7 @@
 #' @param treeDensity count of trees at plot level or forest level
 #' @return a single numeric value (estimate of mean tree dbh), not rounded, in the same unit of measure as basal area
 #' @export
+#' @family structuralAnalysis
 #' @examples
 #' # dbh from an ideal even-aged plot, in cm
 #' dbhList <- runif(10, min = 30, max = 40)

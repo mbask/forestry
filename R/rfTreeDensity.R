@@ -17,6 +17,7 @@
 #' @return a single numeric value (estimate of count of trees per hectare), not rounded
 #' @seealso \code{\link{ttBasalArea}}
 #' @export
+#' @family structuralAnalysis
 #' @examples
 #' # dbh from an ideal even-aged plot, in cm
 #' dbhList <- runif(10, min = 30, max = 40)

@@ -59,5 +59,8 @@ rfTreeDensity(g/1e4)
 }
 \seealso{
   \code{\link{ttBasalArea}}
+
+  Other structuralAnalysis: \code{\link{meanTreeDbh}},
+  \code{\link{rfBasalArea}}, \code{\link{ttBasalArea}}
 }
 
