@@ -22,8 +22,8 @@
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
 }
 \seealso{
-  Other structuralAnalysis: \code{\link{pfTreeDensity}},
-  \code{\link{rfTreeDensity}}, \code{\link{ttBasalArea}},
-  \code{\link{ttMeanDbh}}
+  Other structuralAnalysis: \code{\link{pfExpand}},
+  \code{\link{rfTreeDensity}}, \code{\link{tpBasalArea}},
+  \code{\link{ttBasalArea}}, \code{\link{ttMeanDbh}}
 }
 

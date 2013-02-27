@@ -58,8 +58,8 @@ rfTreeDensity(g/1e4)
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
 }
 \seealso{
-  Other structuralAnalysis: \code{\link{pfTreeDensity}},
-  \code{\link{rfBasalArea}}, \code{\link{ttBasalArea}},
-  \code{\link{ttMeanDbh}}
+  Other structuralAnalysis: \code{\link{pfExpand}},
+  \code{\link{rfBasalArea}}, \code{\link{tpBasalArea}},
+  \code{\link{ttBasalArea}}, \code{\link{ttMeanDbh}}
 }
 

@@ -39,8 +39,8 @@ ttMeanDbh(G, N)
   Marco Bascietto \email{marco.bascietto@ibaf.cnr.it}
 }
 \seealso{
-  Other structuralAnalysis: \code{\link{pfTreeDensity}},
+  Other structuralAnalysis: \code{\link{pfExpand}},
   \code{\link{rfBasalArea}}, \code{\link{rfTreeDensity}},
-  \code{\link{ttBasalArea}}
+  \code{\link{tpBasalArea}}, \code{\link{ttBasalArea}}
 }
 
