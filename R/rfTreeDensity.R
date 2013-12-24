@@ -12,6 +12,7 @@
 #' @note The 2.4 dbh threshold has been chosen as it is the most used lower limit for dbh, in cm, in tree measurements. Therefore if a tree dbh is \eqn{\leq 2.4} than its unit of measurement is \eqn{m}, otherwise it may be either \eqn{cm} and \eqn{m}, the functions assumes it is \eqn{cm}.
 #' 
 #' @param treeG a single tree diameter or vector of tree diameters \emph{in cm}
+#' @param treeCount whether a tree is inside the plot (1, default value), at its edge (0.5), or outside (0)
 #' @param relascopeBand the relascopic band used in the relascopic plot (1, 2, 4), default: 2
 #' @param unit a character value to indicate the unit of measure of \code{treeDbh}: \code{cm2}, \code{m2}, \code{auto} (default value)
 #' @return a single numeric value (estimate of count of trees per hectare), not rounded
@@ -25,7 +26,7 @@
 #' rfTreeDensity(g)
 #' rfTreeDensity(g/1e4)
 #' @author Marco Bascietto \email{marco.bascietto@@ibaf.cnr.it}
-rfTreeDensity <- function(treeG, relascopeBand = 2, unit = "auto") {
+rfTreeDensity <- function(treeG, treeCount = 1, relascopeBand = 2, unit = "auto") {
   conversion <- switch(
     unit
     , cm2 = 1e4
@@ -33,5 +34,5 @@ rfTreeDensity <- function(treeG, relascopeBand = 2, unit = "auto") {
     , auto = if (any(treeG > 18.09557)) 1e4 else 1
     )
   treeG <- treeG / conversion
-  relascopeBand * sum(treeG^-1)
+  treeCount * relascopeBand * treeG^-1
 }

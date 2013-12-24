@@ -2,11 +2,15 @@
 \alias{rfTreeDensity}
 \title{Tree density at forest level, based on a relascopic plot}
 \usage{
-  rfTreeDensity(treeG, relascopeBand = 2, unit = "auto")
+  rfTreeDensity(treeG, treeCount = 1, relascopeBand = 2,
+    unit = "auto")
 }
 \arguments{
   \item{treeG}{a single tree diameter or vector of tree
   diameters \emph{in cm}}
+
+  \item{treeCount}{whether a tree is inside the plot (1,
+  default value), at its edge (0.5), or outside (0)}
 
   \item{relascopeBand}{the relascopic band used in the
   relascopic plot (1, 2, 4), default: 2}

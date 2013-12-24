@@ -8,7 +8,7 @@ Tools for common forestry related analyses.
 
 ### Install
 
-forestry is still under heavy development. You can install it from `github` using the `devtools` package. 
+forestry is still under development. You can install it from `github` using the `devtools` package. 
 
 ```r
 library(devtools)
